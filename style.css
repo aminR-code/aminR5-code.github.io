@@ -87,7 +87,6 @@ section .wave.wave02 {
     bottom: 0;
 }
 
-
 @keyframes animate {
     0% {
         background-position-x: 0;
