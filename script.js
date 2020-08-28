@@ -17,16 +17,16 @@ function RollMe () {
     let imgTwo = document.querySelectorAll('img') [1]
     imgTwo.setAttribute('src', randomImageTwo)
 
-    // if(randomOne > randomTwo) {
-    //     document.querySelector('h1').innerHTML="YOU WIN"
-    // }
+    if(randomOne > randomTwo) {
+        document.querySelector('h1').innerHTML="YOU WIN"
+    }
     
-    // else if (randomOne < randomTwo) {
-    //     document.querySelector('h1').innerHTML="CPU WIN"
-    // }
+    else if (randomOne < randomTwo) {
+        document.querySelector('h1').innerHTML="CPU WIN"
+    }
 
     
-    // else(randomOne > randomTwo) {
-    //     document.querySelector('h1').innerHTML="DRAW"
-    // }
+    else{
+        document.querySelector('h1').innerHTML="DRAW"
+    }
 }
